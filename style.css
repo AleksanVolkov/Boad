@@ -1,0 +1,146 @@
+body
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #ffff;
+    font-family: 'Fira Sans', sans-serif;
+}
+.top
+{
+    width: 100%;
+    background-image: url(./image/long-range-shot-boat-sailing-sea-reflecting-sun.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 100vh;
+    
+}
+.mask
+{
+    height: 100vh; 
+    background-color:#57575771;
+}
+.head
+{
+   
+    box-sizing: border-box;
+    display: flex;
+    
+}
+.ikon
+{
+    width: 20%;
+}
+nav
+{
+    width: 60%;
+}
+.menu
+{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+}
+.menu_item
+{
+    list-style: none;
+    font-size: 1.5em;
+}
+.faq
+{
+    width: 20%;
+}
+.first_page
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto 0;
+    max-width: 60%;
+
+}
+.first_page_title
+{
+    line-height: 1em;
+    font-size: 3.5em;
+    font-weight: 600;
+    max-width: 400px;
+}
+.first_page_title span
+{
+    line-height: 1em;
+    font-size: 1.1em;
+    font-weight: 600;
+    max-width: 400px;
+    color:rgb(219, 65, 37);
+}
+.first_page_description
+{
+    
+    box-sizing:border-box;
+    margin-top: 30px;
+    font-size: 1.5em;
+    font-weight:400;
+    max-width: 400px; 
+}
+.btn
+{
+    font-size: 1.5em;
+    font-weight: 400;
+    max-width: 400px;
+    color:#ffff;
+    background-color:rgba(0, 0, 0, 0);
+    border: 2px solid rgb(219, 65, 37);
+    padding: 10px 50px;
+}
+.btn_first
+{
+    margin-top: 30px;
+}
+.link
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inst
+{
+    
+    width: 50px;
+    height: 50px;
+    background-image:url(./image/Instagram-Glyph-Black-Logo.wine.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+
+}
+.line_one
+{
+    
+    margin-bottom: 15px;
+    height: 100px;
+    border-left:1px solid #ffff ;
+}
+.line_two
+{
+    
+    margin-bottom: 15px;
+    height: 50px;
+    border-left:1px solid #ffff ;
+}
+.face
+{
+    width: 50px;
+    height: 50px;
+    background-image:url(./image/Facebook-f_Logo-Grey-Logo.wine.svg);
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+.yout
+{
+    width: 50px;
+    height: 50px;
+    background-image:url(./image/YouTube-Icon-Almost-Black-Logo.wine.svg);
+    background-size:contain;
+    background-repeat:no-repeat;
+}
