@@ -1,7 +1,7 @@
 body
 {
     box-sizing: border-box;
-    margin: 0;
+    margin: 0;git remote add origin
     padding: 0;
     color: #ffff;
     font-family: 'Fira Sans', sans-serif;
@@ -29,6 +29,7 @@ body
 }
 .ikon
 {
+   
     width: 20%;
 }
 nav
