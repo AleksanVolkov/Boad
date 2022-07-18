@@ -1,53 +1,56 @@
 body
 {
     box-sizing: border-box;
-    margin: 0;git remote add origin
+    margin: 0;
     padding: 0;
     color: #ffff;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+    margin: 0 auto;
+    position: relative;
+    width: 1400px;
 }
 .top
 {
-    width: 100%;
-    background-image: url(./image/long-range-shot-boat-sailing-sea-reflecting-sun.jpg);
-    background-repeat: no-repeat;
+    max-width: 1400px;
+    margin: 0 auto;
+    box-sizing:border-box;
+    height: 100vh;
+    background: url(./image/photo-1528154291023-a6525fabe5b4.webp);
     background-size:cover;
-    min-height: 100vh;
-    
-}
-.mask
-{
-    height: 100vh; 
-    background-color:#57575771;
+    background-repeat:no-repeat;
+    background-position: center;
+    left: 0;
+    top: 0;    
 }
 .head
 {
-   
     box-sizing: border-box;
     display: flex;
-    
 }
 .ikon
 {
-   
     width: 20%;
 }
 nav
 {
-    width: 60%;
+    width: 75%;
 }
 .menu
 {
     padding-top: 50px;
     display: flex;
     justify-content: center;
-    gap: 50px;
-    
+    gap: 21px;
 }
 .menu_item
 {
     list-style: none;
-    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    font-size: 1em;
 }
 .faq
 {
@@ -57,33 +60,36 @@ nav
 {
     display: flex;
     justify-content: space-between;
-    margin: 100px auto 0;
-    max-width: 60%;
+    margin: 170px auto 0;
+    max-width: 74%;
 
 }
 .first_page_title
 {
-    line-height: 1em;
-    font-size: 3.5em;
+    line-height: 1.2em;
+    font-size: 2.68em;
     font-weight: 600;
-    max-width: 400px;
+    max-width: 462px;
+    letter-spacing: 8.5%;
 }
 .first_page_title span
 {
-    line-height: 1em;
+    line-height: 1.2em;
     font-size: 1.1em;
     font-weight: 600;
-    max-width: 400px;
-    color:rgb(219, 65, 37);
+    max-width: 462px;
+    letter-spacing: 8.5%;
+    color:#FC6E6E;
 }
 .first_page_description
 {
-    
     box-sizing:border-box;
-    margin-top: 30px;
-    font-size: 1.5em;
+    margin-top: 20px;
+    font-size: 1.56em;
     font-weight:400;
-    max-width: 400px; 
+    max-width: 462px;
+    Line-height:33.23px;
+    letter-spacing: 1.5%;
 }
 .btn
 {
@@ -92,7 +98,7 @@ nav
     max-width: 400px;
     color:#ffff;
     background-color:rgba(0, 0, 0, 0);
-    border: 2px solid rgb(219, 65, 37);
+    border: 2px solid #FC6E6E;
     padding: 10px 50px;
 }
 .btn_first
@@ -107,26 +113,24 @@ nav
 }
 .inst
 {
-    
     width: 50px;
     height: 50px;
-    background-image:url(./image/Instagram-Glyph-Black-Logo.wine.png);
+    background-image:url(./image/Instagram-Logo.wine.svg);
     background-size:contain;
     background-repeat:no-repeat;
-
 }
 .line_one
 {
-    
-    margin-bottom: 15px;
-    height: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 93px;
     border-left:1px solid #ffff ;
 }
 .line_two
 {
-    
-    margin-bottom: 15px;
-    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 26px;
     border-left:1px solid #ffff ;
 }
 .face
@@ -144,4 +148,20 @@ nav
     background-image:url(./image/YouTube-Icon-Almost-Black-Logo.wine.svg);
     background-size:contain;
     background-repeat:no-repeat;
+}
+
+.mask{
+   
+    background: linear-gradient(transparent 910px, #CCF4F9);
+    height: 100vh;
+}
+.next
+{
+    height: 500px;
+    max-width: 1400px;
+    background-color:#CCF4F9;
+    
+   
+
+
 }
