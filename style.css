@@ -5,10 +5,20 @@ body
     padding: 0;
     color: #ffff;
     font-family: 'Roboto', sans-serif;
-    
+    font-weight: 400;
     margin: 0 auto;
     position: relative;
     max-width: 1400px;
+}
+.contain
+{
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+.cover
+{
+    background-size:cover;
+    background-repeat:no-repeat;
 }
 .top
 {
@@ -16,10 +26,10 @@ body
     margin: 0 auto;
     box-sizing:border-box;
     height: 100vh;
-    background: url(./image/photo-1528154291023-a6525fabe5b4.webp);
+    background: url(./image/Image.svg);
+    background-position: center;
     background-size:cover;
     background-repeat:no-repeat;
-    background-position: center;
     left: 0;
     top: 0;    
 }
@@ -30,7 +40,18 @@ body
 }
 .ikon
 {
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
     width: 20%;
+   
+
+}
+.ikon_logo
+{
+    width: 35px;
+    height: 35px;
+    background-image:url(./image/Vector.png);
 }
 nav
 {
@@ -46,7 +67,6 @@ nav
 .menu_item
 {
     list-style: none;
-    font-weight: 400;
     line-height: 16px;
     letter-spacing: 0.02em;
     text-align: center;
@@ -55,6 +75,14 @@ nav
 .faq
 {
     width: 20%;
+    display: flex;
+    justify-content: flex-start;
+   
+}
+.faq_item
+{
+    list-style: none;
+    margin-top: 65px;
 }
 .first_page
 {
@@ -67,9 +95,8 @@ nav
 
 .eclips_one
 {
-    background-size:contain;
-    background-repeat:no-repeat;
     background-image: url(./image/Ellipse.png);
+    background-size: cover;
     width: 500px;
     height: 500px;
     position: absolute;
@@ -79,9 +106,8 @@ nav
 }
 .eclips_two
 {
-    background-size:contain;
-    background-repeat:no-repeat;
     background-image: url(./image/Ellipse.png);
+    background-size: cover;
     width: 500px;
     height: 500px;
     position: absolute;
@@ -91,16 +117,15 @@ nav
 }
 .first_page_title
 {
-    line-height: 1.2em;
-    font-size: 2.68em;
+    font-size: calc(24px + 16 *(100vw/1400));
+    line-height: calc(24px + 14 *(100vw/1400));
     font-weight: 600;
     max-width: 426px;
-    
 }
 .first_page_title span
 {
-    line-height: 1.2em;
-    font-size: 1.1em;
+    font-size: calc(24px + 16 *(100vw/1400));
+    line-height: calc(24px + 14 *(100vw/1400));
     font-weight: 600;
     max-width: 426px;
     color:#FC6E6E;
@@ -109,16 +134,15 @@ nav
 {
     box-sizing:border-box;
     margin-top: 20px;
-    font-size: 1.56em;
-    font-weight:400;
-    max-width: 462px;
-    Line-height:33.23px;
+    font-size: calc(15px + 10 *(100vw/1400));
+    line-height: calc(18px + 14 *(100vw/1400));
+    max-width: 426px;
+    
     
 }
 .btn
 {
     font-size: 1.5em;
-    font-weight: 400;
     max-width: 400px;
     color:#ffff;
     background-color:rgba(0, 0, 0, 0);
@@ -145,8 +169,6 @@ nav
     width: 50px;
     height: 50px;
     background-image:url(./image/Instagram-Logo.wine.svg);
-    background-size:contain;
-    background-repeat:no-repeat;
 }
 .line_one
 {
@@ -167,21 +189,18 @@ nav
     width: 50px;
     height: 50px;
     background-image:url(./image/Facebook-f_Logo-Grey-Logo.wine.svg);
-    background-size:contain;
-    background-repeat:no-repeat;
 }
 .yout
 {
     width: 50px;
     height: 50px;
     background-image:url(./image/YouTube-Icon-Almost-Black-Logo.wine.svg);
-    background-size:contain;
-    background-repeat:no-repeat;
 }
 .next
 {
     max-width: 1400px;
     background-color:#CCF4F9;
+    padding-bottom: 150px;
 }
 .aboutUs
 {
@@ -196,8 +215,6 @@ nav
     width: 430px;
     height: 360px;
     background-image:url(./image/Image\ \(2\).png);
-    background-size:cover;
-     background-repeat:no-repeat;
     border: 1px solid black;
     border-radius: 10px;
     margin-top: 8.87em;
@@ -210,16 +227,16 @@ nav
 }
 .aboutUs_title span
 {
-    line-height: 1.2em;
-    font-size: 1em;
+    font-size: calc(24px + 16 *(100vw/1400));
+    line-height: calc(24px + 14 *(100vw/1400));
     font-weight: 600;
     max-width: 462px;
     color:#FC6E6E;
 }
 .aboutUs_title 
 {
-    line-height: 1.2em;
-    font-size: 2.5em;
+    font-size: calc(24px + 16 *(100vw/1400));
+    line-height: calc(24px + 14 *(100vw/1400));
     font-weight: 600;
     max-width: 462px;
     color: black;
@@ -227,26 +244,22 @@ nav
 .aboutUs_descr
 {
     box-sizing:border-box;
+    font-size: calc(15px + 10 *(100vw/1400));
+    line-height: calc(18px + 14 *(100vw/1400));
     margin-top: 20px;
-    font-size: 1.56em;
-    font-weight:400;
     max-width: 430px;
-    Line-height:33.23px;
     color: black;
 }
 .gen_head
 {
     margin-top: 131px;
-    font-family: Roboto;
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 33px;
+    font-size: calc(22px + 8 *(100vw/1400));
+    line-height: calc(18px + 14 *(100vw/1400));
     letter-spacing: 0.085em;
     text-align: center;
     color: black;
     text-transform:uppercase;
     margin-bottom: 20px;
-
 }
 .ikon_field
 {
@@ -254,29 +267,22 @@ nav
     display: flex;
     justify-content: space-between;
     margin: 0 auto ;
+    padding: 25px;
 }
 .ikon_item
 {
-    width: 70px;
+    width: 77px;
     height: 130px;
-    
     margin-right: 20px;
-
 }
 .ikon_item_one{
     background-image:url(./image/Group\ left.png);
-    background-size:cover;
-     background-repeat:no-repeat;
 }
 .ikon_item_two{
     background-image:url(./image/Group\ center.png);
-    background-size:cover;
-     background-repeat:no-repeat;
 }
 .ikon_item_three{
     background-image:url(./image/Group\ right.png);
-    background-size:cover;
-     background-repeat:no-repeat;
 }
 .ikon_box{
     display: flex;
@@ -286,7 +292,6 @@ nav
 {
     line-height: 1.2em;
     font-size: 1.2em;
-    font-weight: 400;
     color: black;
     text-align: center;
 }
@@ -295,7 +300,55 @@ nav
     height: 430px;
     max-width: 1050px;
     background-image:url(./image/Image\ two.png);
-    background-size:cover;
-     background-repeat:no-repeat;
-     margin: 130px auto 0;
+    margin: 130px auto 130px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+.img_title span
+{
+    line-height: 1.2em;
+    font-size: 1em;
+    font-weight: 600;
+    max-width: 462px;
+    color:#FC6E6E;
+    text-align: center;
+}
+.img_title 
+{
+    line-height: 1.2em;
+    font-size: 2.5em;
+    font-weight: 600;
+    max-width: 462px;
+    text-align: center;
+}
+.ikon_item_four {
+    background-image:url(./image/Group\ 46.png);
+}
+.ikon_item_five {
+    background-image:url(./image/Group\ 47.png);
+}
+.ikon_item_six {
+    background-image:url(./image/Group\ 48.png);
+}
+footer
+{
+    background-color:black;
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 200px;
+}
+@media (max-width:850px)
+{
+    .eclips_one
+    {
+        width: 200px;
+        height: 200px;
+    }
+    .eclips_two
+    {
+        width: 200px;
+        height: 200px;
+    }
 }
