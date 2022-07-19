@@ -8,7 +8,7 @@ body
     
     margin: 0 auto;
     position: relative;
-    width: 1400px;
+    max-width: 1400px;
 }
 .top
 {
@@ -64,21 +64,45 @@ nav
     max-width: 74%;
 
 }
+
+.eclips_one
+{
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-image: url(./image/Ellipse.png);
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 110px;
+    left: 18%;
+
+}
+.eclips_two
+{
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-image: url(./image/Ellipse.png);
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 900px;
+    left: 38%;
+
+}
 .first_page_title
 {
     line-height: 1.2em;
     font-size: 2.68em;
     font-weight: 600;
-    max-width: 462px;
-    letter-spacing: 8.5%;
+    max-width: 426px;
+    
 }
 .first_page_title span
 {
     line-height: 1.2em;
     font-size: 1.1em;
     font-weight: 600;
-    max-width: 462px;
-    letter-spacing: 8.5%;
+    max-width: 426px;
     color:#FC6E6E;
 }
 .first_page_description
@@ -89,7 +113,7 @@ nav
     font-weight:400;
     max-width: 462px;
     Line-height:33.23px;
-    letter-spacing: 1.5%;
+    
 }
 .btn
 {
@@ -103,6 +127,11 @@ nav
 }
 .btn_first
 {
+    margin-top: 30px;
+}
+.btn_two
+{
+    color: black;
     margin-top: 30px;
 }
 .link
@@ -149,19 +178,124 @@ nav
     background-size:contain;
     background-repeat:no-repeat;
 }
-
-.mask{
-   
-    background: linear-gradient(transparent 910px, #CCF4F9);
-    height: 100vh;
-}
 .next
 {
-    height: 500px;
     max-width: 1400px;
     background-color:#CCF4F9;
+}
+.aboutUs
+{
+    display: flex;
+    justify-content: center;
+    max-width: 1050px;
+    margin: 0 auto;
+
+}
+.aboutUs_video
+{
+    width: 430px;
+    height: 360px;
+    background-image:url(./image/Image\ \(2\).png);
+    background-size:cover;
+     background-repeat:no-repeat;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 8.87em;
+}
+.aboutUs_content
+{
+    margin-left: 110px;
+    max-width: 460px;
+    margin-top: 7.3em;
+}
+.aboutUs_title span
+{
+    line-height: 1.2em;
+    font-size: 1em;
+    font-weight: 600;
+    max-width: 462px;
+    color:#FC6E6E;
+}
+.aboutUs_title 
+{
+    line-height: 1.2em;
+    font-size: 2.5em;
+    font-weight: 600;
+    max-width: 462px;
+    color: black;
+}
+.aboutUs_descr
+{
+    box-sizing:border-box;
+    margin-top: 20px;
+    font-size: 1.56em;
+    font-weight:400;
+    max-width: 430px;
+    Line-height:33.23px;
+    color: black;
+}
+.gen_head
+{
+    margin-top: 131px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.085em;
+    text-align: center;
+    color: black;
+    text-transform:uppercase;
+    margin-bottom: 20px;
+
+}
+.ikon_field
+{
+    max-width: 940px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto ;
+}
+.ikon_item
+{
+    width: 70px;
+    height: 130px;
     
-   
+    margin-right: 20px;
 
-
+}
+.ikon_item_one{
+    background-image:url(./image/Group\ left.png);
+    background-size:cover;
+     background-repeat:no-repeat;
+}
+.ikon_item_two{
+    background-image:url(./image/Group\ center.png);
+    background-size:cover;
+     background-repeat:no-repeat;
+}
+.ikon_item_three{
+    background-image:url(./image/Group\ right.png);
+    background-size:cover;
+     background-repeat:no-repeat;
+}
+.ikon_box{
+    display: flex;
+    align-items: center;
+}
+.ikon_text
+{
+    line-height: 1.2em;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+}
+.bottom_img
+{
+    height: 430px;
+    max-width: 1050px;
+    background-image:url(./image/Image\ two.png);
+    background-size:cover;
+     background-repeat:no-repeat;
+     margin: 130px auto 0;
 }
