@@ -10,6 +10,15 @@ body
     position: relative;
     max-width: 1400px;
 }
+a
+{
+    cursor: pointer;
+}
+ul
+{
+    padding: 0;
+    margin: 0;
+}
 .contain
 {
     background-size:contain;
@@ -49,6 +58,7 @@ body
 }
 .ikon_logo
 {
+   
     width: 35px;
     height: 35px;
     background-image:url(./image/Vector.png);
@@ -64,6 +74,12 @@ nav
     justify-content: center;
     gap: 21px;
 }
+.menu_footer
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 .menu_item
 {
     list-style: none;
@@ -71,12 +87,13 @@ nav
     letter-spacing: 0.02em;
     text-align: center;
     font-size: 1em;
+    cursor: pointer;
 }
 .faq
 {
     width: 20%;
     display: flex;
-    justify-content: flex-start;
+    
    
 }
 .faq_item
@@ -338,6 +355,53 @@ footer
     max-width: 1400px;
     margin: 0 auto;
     height: 200px;
+    padding-top: 55px;
+    
+}
+.footer
+{
+    display: flex;
+    max-width: 1050px;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+.logo_footer
+{
+    width: 25px;
+    height: 16px;
+}
+.two
+{
+    font-size: calc(10px + 5 *(100vw/1400));
+    line-height: calc(20px + 4 *(100vw/1400));
+    text-transform: uppercase;
+}
+.two span
+{
+    font-size: calc(10px + 5 *(100vw/1400));
+    line-height: calc(20px + 4 *(100vw/1400));
+    text-transform: uppercase;
+    color:#FC6E6E;
+}
+.menu_footer
+{
+    align-items: flex-start;
+}
+.phone
+{
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+}
+.phone a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.footer_ikon
+{
+    display: flex;
+    justify-content: space-between;
 }
 @media (max-width:850px)
 {
