@@ -35,7 +35,7 @@ ul
     margin: 0 auto;
     box-sizing:border-box;
     height: 100vh;
-    background: url(./image/Image\ boat.png);
+    background: url(./image/boat.png);
     background-position: center;
     background-size:cover;
     background-repeat:no-repeat;
@@ -106,7 +106,7 @@ nav
     display: flex;
     justify-content: space-between;
     margin: 170px auto 0;
-    max-width: 74%;
+    max-width: 1050px;
 
 }
 
@@ -134,15 +134,15 @@ nav
 }
 .first_page_title
 {
-    font-size: calc(24px + 16 *(100vw/1400));
-    line-height: calc(24px + 14 *(100vw/1400));
+    font-size: calc(7px + 36 *(100vw/1400));
+    line-height: calc(7px + 36 *(100vw/1400));
     font-weight: 600;
     max-width: 426px;
 }
 .first_page_title span
 {
-    font-size: calc(24px + 16 *(100vw/1400));
-    line-height: calc(24px + 14 *(100vw/1400));
+    font-size: calc(7px + 36 *(100vw/1400));
+    line-height: calc(7px + 36 *(100vw/1400));
     font-weight: 600;
     max-width: 426px;
     color:#FC6E6E;
@@ -151,15 +151,16 @@ nav
 {
     box-sizing:border-box;
     margin-top: 20px;
-    font-size: calc(15px + 10 *(100vw/1400));
-    line-height: calc(18px + 14 *(100vw/1400));
+    font-size: calc(10px + 15 *(100vw/1400));
+    line-height: calc(10px + 15 *(100vw/1400));
     max-width: 426px;
     
     
 }
 .btn
 {
-    font-size: 1.5em;
+    font-size: calc(13px + 4 *(100vw/1400));
+    
     max-width: 400px;
     color:#ffff;
     background-color:rgba(0, 0, 0, 0);
@@ -222,7 +223,7 @@ nav
 .aboutUs
 {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     max-width: 1050px;
     margin: 0 auto;
 
@@ -244,16 +245,16 @@ nav
 }
 .aboutUs_title span
 {
-    font-size: calc(24px + 16 *(100vw/1400));
-    line-height: calc(24px + 14 *(100vw/1400));
+    font-size: calc(7px + 33px *(100vw/1400));
+    line-height: calc(7px + 33px *(100vw/1400));
     font-weight: 600;
     max-width: 462px;
     color:#FC6E6E;
 }
 .aboutUs_title 
 {
-    font-size: calc(24px + 16 *(100vw/1400));
-    line-height: calc(24px + 14 *(100vw/1400));
+    font-size: calc(7px + 33px *(100vw/1400));
+    line-height: calc(7px + 33px *(100vw/1400));
     font-weight: 600;
     max-width: 462px;
     color: black;
@@ -261,8 +262,8 @@ nav
 .aboutUs_descr
 {
     box-sizing:border-box;
-    font-size: calc(15px + 10 *(100vw/1400));
-    line-height: calc(18px + 14 *(100vw/1400));
+    font-size: calc(10px + 15 *(100vw/1400));
+    line-height: calc(10px + 15 *(100vw/1400));
     margin-top: 20px;
     max-width: 430px;
     color: black;
@@ -270,8 +271,8 @@ nav
 .gen_head
 {
     margin-top: 131px;
-    font-size: calc(22px + 8 *(100vw/1400));
-    line-height: calc(18px + 14 *(100vw/1400));
+    font-size: calc(16px + 14 *(100vw/1400));
+    line-height: calc(17px + 15 *(100vw/1400));
     letter-spacing: 0.085em;
     text-align: center;
     color: black;
@@ -285,6 +286,7 @@ nav
     justify-content: space-between;
     margin: 0 auto ;
     padding: 25px;
+    flex-wrap: wrap;
 }
 .ikon_item
 {
@@ -307,8 +309,8 @@ nav
 }
 .ikon_text
 {
-    line-height: 1.2em;
-    font-size: 1.2em;
+    font-size: calc(13px + 7 *(100vw/1400));
+    line-height: calc(15px + 7 *(100vw/1400));
     color: black;
     text-align: center;
 }
@@ -325,8 +327,8 @@ nav
 }
 .img_title span
 {
-    line-height: 1.2em;
-    font-size: 1em;
+    font-size: calc(24px + 16 *(100vw/1400));
+    line-height: calc(24px + 14 *(100vw/1400));
     font-weight: 600;
     max-width: 462px;
     color:#FC6E6E;
@@ -334,8 +336,8 @@ nav
 }
 .img_title 
 {
-    line-height: 1.2em;
-    font-size: 2.5em;
+    font-size: calc(7px + 33 *(100vw/1400));
+    line-height: calc(7px + 33 *(100vw/1400));
     font-weight: 600;
     max-width: 462px;
     text-align: center;
@@ -414,5 +416,86 @@ footer
     {
         width: 200px;
         height: 200px;
+    }
+}
+@media (max-width:500px)
+{
+    .eclips_one
+    {
+        width: 150px;
+        height: 150px;
+    }
+    .eclips_two
+    {
+        width: 150px;
+        height: 150px;
+    }
+    .top
+    {
+        max-height: 300px;
+    }
+    .menu
+    {
+        display: none;
+    }
+    .faq_item
+    {
+        display: none;
+    }
+    .first_page
+    {
+        margin: 0 auto ;
+    }
+    .first_page_title
+    {
+        max-width: 220px;
+    }
+    .first_page_title span
+    {
+        max-width: 220px;
+    }
+    .first_page_description
+    {
+        margin-top: 5px;
+        max-width: 220px;
+    }
+    .btn
+    {
+        border-radius:5px;
+        padding: 5px 15px;
+    }
+    .btn_first
+    {
+        margin-top: 10px;
+    }
+    .aboutUs
+    {
+        margin: 0 16px;;
+    }
+    .aboutUs_video
+    {
+        width: 260px;
+        height: 100px;
+        background-image:url(./image/Image\ \(2\).png);
+        border: 1px solid black;
+        border-radius: 0;
+        margin-top: 8.87em;
+    }
+    .aboutUs_content
+    {
+        margin-left: 9px;
+    }
+    .line_one
+    {
+        display: none;
+    }
+    .line_two
+    {
+        display: none;
+    }
+    .bottom_img
+    {
+        max-width: 500px;
+        max-height: 90px;
     }
 }
