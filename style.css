@@ -483,6 +483,19 @@ footer
 }
 @media (max-width:500px)
 {
+    .top
+{
+    max-width: 1400px;
+    margin: 0 auto;
+    box-sizing:border-box;
+    height:260px;
+    background: url(./image/mobil\ boat.png);
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    left: 0;
+    top: 0;    
+}
     .head_desk
     {
         display: none;
@@ -505,15 +518,58 @@ footer
         height: 14px;
         
     }
+
     .menu_mobil
     {
-        display: none;
+        display: block;
+        width: 135px;
+        height: 290px;
+        background-color:#CCF4F9;
+        border: 1px solid white;
+        position: absolute;
+        top: 30px;
+        right: 4%;
+        z-index: 8;
+        -webkit-box-shadow: -21px 17px 10px -10px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: -21px 17px 10px -10px rgba(0, 0, 0, 0.2);
+        box-shadow: -21px 17px 10px -10px rgba(0, 0, 0, 0.2);    
     }
-    .top
+    .menu_item_mobil.menu_login
     {
-        max-height: 260px;
+        
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        margin-top: 20px;
+        padding-bottom: 1px;
+        border:none;
     }
-    
+    .menu_item_mobil.menu_singUp
+    {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        
+
+    }
+    .menu_item_mobil
+    {
+        
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 18px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        color:black;
+        border-bottom: 1px solid black;
+        margin: 10px auto 0;
+        width: 68px;
+        list-style: none;
+        padding-bottom: 10px;
+        
+    }
     .faq_item
     {
         display: none;
@@ -736,4 +792,8 @@ footer
         width: 40px;
         height: 40px;
     }
+
+    /**/
+    
+    /**/
 }
