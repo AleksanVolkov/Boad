@@ -14,7 +14,7 @@ a
 {
     cursor: pointer;
 }
-/*-----------------------------------------*/
+/*--------------MOBIL MENU---------------------------*/
 input {display: none;}
 label {cursor: pointer;}
 
@@ -35,8 +35,7 @@ label {cursor: pointer;}
     top: 0;
     right: 0;  
     bottom: 0;
-    left: 0;
-    transition: background-color .3s;
+  
 }
 
 .menu, .menu__submenu{
@@ -51,20 +50,27 @@ label {cursor: pointer;}
     top: 30px;
     bottom: 0;
     right: 16px;
-    display: block;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
     width: 138px;
     height: 290px;
     margin: 0;
-    padding: 17px 0;
     text-transform: uppercase;
     line-height: 2em;
     background-color: #CCF4F9;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
-    transform: translateX(154px);
-    transition: transform .3s;
+    transform: translateX(180px);
+    transition: transform .5s;
     will-change: transform;
     backface-visibility: hidden;
+    z-index: 4;
+    border: 2px solid white;
+    -webkit-box-shadow: -9px 12px 8px 0px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: -9px 12px 8px 0px rgba(0, 0, 0, 0.29);
+    box-shadow: -9px 12px 8px 0px rgba(0, 0, 0, 0.29);
     
 }
 
@@ -88,6 +94,27 @@ label {cursor: pointer;}
     text-align: center;
     text-decoration: none;
     color: rgb(0, 0, 0);
+    border-bottom:1px solid black;
+    max-width: 68px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    padding-bottom: 10px;
+    text-transform: none;
+}
+.menu_login
+{
+    font-weight: 600;
+    border: none;
+    font-size: 16px;
+    
+    
+}
+.menu_sing
+{
+    font-weight: 600;
+    font-size: 16px;
 }
 
 .menu__submenu .menu__item {color: #000;}
@@ -104,6 +131,13 @@ label {cursor: pointer;}
 .menu__check:checked+.menu__showsub {transform: rotate(180deg);}
 .nav__check:checked~.menu {transform: translateX(0);}
 /*----------------------------*/
+.menu_top
+{
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    margin: 55px auto 0;
+}
 ul
 {
     padding: 0;
@@ -162,14 +196,6 @@ nav
 {
     width: 75%;
 }
-.menu
-{
-    padding-top: 50px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 21px;
-}
 
 .menu_footer
 {
@@ -179,8 +205,8 @@ nav
 }
 .menu_item
 {
-    font-size: calc(8px + 8 *(100vw/1400));
-    line-height: calc(8px + 8 *(100vw/1400));
+    font-size: calc(8px + 6 *(100vw/1400));
+    line-height: calc(8px + 6 *(100vw/1400));
     list-style: none;
     letter-spacing: 0.02em;
     text-align: center;
@@ -604,13 +630,10 @@ footer
     }
     .ikon_logo
     {
-        
         margin: 8px 17px;
         width: 26px;
         height: 14px;
-        
     }
-
     .faq_item
     {
         display: none;
