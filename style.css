@@ -12,7 +12,9 @@ body
 }
 a
 {
+    text-decoration: none;
     cursor: pointer;
+    color: #fff;
 }
 /*--------------MOBIL MENU---------------------------*/
 input {display: none;}
@@ -137,6 +139,7 @@ label {cursor: pointer;}
     justify-content: space-between;
     max-width: 500px;
     margin: 55px auto 0;
+    text-decoration: none;
 }
 ul
 {
